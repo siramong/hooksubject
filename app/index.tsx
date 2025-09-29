@@ -1,6 +1,10 @@
 import { Text, View } from "react-native";
+import { useState } from "react";
 
 export default function Index() {
+
+  const contador = useState<number>(0);
+  
   return (
     <View
       style={{
